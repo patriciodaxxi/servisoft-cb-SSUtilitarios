@@ -1,0 +1,62 @@
+object frmLeEstoque_Mov: TfrmLeEstoque_Mov
+  Left = 303
+  Top = 150
+  Width = 928
+  Height = 480
+  Caption = 'frmLeEstoque_Mov'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  OnClose = FormClose
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 376
+    Top = 40
+    Width = 379
+    Height = 28
+    Caption = 
+      'Vai limpar a tabela ESTOQUE_ATUAL'#13#10'Vai ler a tabela ESTOQUE_MOV ' +
+      'e montar a ESTOQUE_ATUAL'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clMaroon
+    Font.Height = -12
+    Font.Name = 'Verdana'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 80
+    Top = 152
+    Width = 6
+    Height = 18
+    Caption = '.'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clBlue
+    Font.Height = -16
+    Font.Name = 'Verdana'
+    Font.Style = []
+    ParentFont = False
+  end
+  object BitBtn1: TBitBtn
+    Left = 64
+    Top = 56
+    Width = 305
+    Height = 25
+    Caption = 'Gerar Estoque pela tabela ESTOQUE_MOV'
+    TabOrder = 0
+    OnClick = BitBtn1Click
+  end
+  object ProgressBar1: TProgressBar
+    Left = 72
+    Top = 104
+    Width = 737
+    Height = 17
+    TabOrder = 1
+  end
+end
