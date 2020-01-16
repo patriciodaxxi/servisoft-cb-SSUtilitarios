@@ -3,7 +3,7 @@ object fMenu: TfMenu
   Top = 54
   Width = 801
   Height = 650
-  Caption = 'Menu    (16/01/2019  1.0.07)'
+  Caption = 'Menu    (13/07/2019  1.0.08)'
   Color = clSilver
   Constraints.MinHeight = 650
   Constraints.MinWidth = 780
@@ -215,5 +215,20 @@ object fMenu: TfMenu
     ParentFont = False
     TabOrder = 12
     OnClick = NxButton10Click
+  end
+  object btnCBenef: TNxButton
+    Left = 36
+    Top = 398
+    Width = 302
+    Height = 33
+    Caption = 'Carregar Tabela C'#243'd. Benef'#237'cio Fiscal'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 13
+    OnClick = btnCBenefClick
   end
 end

@@ -216,4 +216,19 @@ object fMenu: TfMenu
     TabOrder = 12
     OnClick = NxButton10Click
   end
+  object btnCBenef: TNxButton
+    Left = 36
+    Top = 398
+    Width = 302
+    Height = 33
+    Caption = 'Carregar Tabela C'#243'd. Benef'#237'cio Fiscal'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 13
+    OnClick = btnCBenefClick
+  end
 end

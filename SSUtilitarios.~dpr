@@ -35,7 +35,9 @@ uses
   UZeraEstoque in 'UZeraEstoque.pas' {frmZeraEstoque},
   DmdDatabase_NFeBD in '..\ssfacil\DmdDatabase_NFeBD.pas' {dmDatabase_NFeBD: TDataModule},
   uNFeConsts in '..\ssfacil\uNFeConsts.pas',
-  UGeraInventario in 'UGeraInventario.pas' {frmGeraInventario};
+  UGeraInventario in 'UGeraInventario.pas' {frmGeraInventario},
+  UDMCadInventario in '..\ssfacil\UDMCadInventario.pas' {DMCadInventario: TDataModule},
+  UGeraCBenef in 'UGeraCBenef.pas' {frmGerarCBenef};
 
 {$R *.res}
 

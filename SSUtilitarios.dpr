@@ -36,7 +36,8 @@ uses
   DmdDatabase_NFeBD in '..\ssfacil\DmdDatabase_NFeBD.pas' {dmDatabase_NFeBD: TDataModule},
   uNFeConsts in '..\ssfacil\uNFeConsts.pas',
   UGeraInventario in 'UGeraInventario.pas' {frmGeraInventario},
-  UDMCadInventario in '..\ssfacil\UDMCadInventario.pas' {DMCadInventario: TDataModule};
+  UDMCadInventario in '..\ssfacil\UDMCadInventario.pas' {DMCadInventario: TDataModule},
+  UGeraCBenef in 'UGeraCBenef.pas' {frmGeraCBenef};
 
 {$R *.res}
 
